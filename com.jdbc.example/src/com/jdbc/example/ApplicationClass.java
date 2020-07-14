@@ -14,10 +14,14 @@ public class ApplicationClass {
 		 */
 		
 		
-		  StudentDAO s = new StudentDAO(); Student s2 = new Student(); s2.setID(8);
-		  s2.setFristName("Ram"); s2.setLastName("Reddy"); s2.setAge(30);
+		/*
+		 * StudentDAO s = new StudentDAO(); Student s2 = new Student(); s2.setID(8);
+		 * s2.setFristName("Ram"); s2.setLastName("Reddy"); s2.setAge(30);
+		 * s.addStudent(s2);
+		 */
+		StudentDAO s = new StudentDAO(); Student s2 = new Student(); s2.setID(9);
+		  s2.setFristName("Sam"); s2.setLastName("Reddy"); s2.setAge(30);
 		  s.addStudent(s2);
-		 
 	
 		/*
 		 * StudentDAO s = new StudentDAO(); Student s3 = s.getStudent(2);
